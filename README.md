@@ -1,0 +1,1 @@
+Welcome to the PHP Course! This course is designed to teach you the object-oriented programming (OOP).
