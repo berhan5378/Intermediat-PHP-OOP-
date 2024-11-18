@@ -1,0 +1,10 @@
+{
+    "require": {
+        "ramsey/uuid": "^4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "public/4-PHP_CodingStandards_Autoloading_PSR-4_Composer/app/"  
+        }
+    }
+}
