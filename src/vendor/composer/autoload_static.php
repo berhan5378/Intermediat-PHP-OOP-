@@ -28,6 +28,7 @@ class ComposerStaticInit7422faf8f33d1f1cdfca8767e0ffc0f4
         'A' => 
         array (
             'App\\' => 4,
+            'App2\\' => 5,
         ),
     );
 
@@ -51,6 +52,10 @@ class ComposerStaticInit7422faf8f33d1f1cdfca8767e0ffc0f4
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/public/4-PHP_CodingStandards_Autoloading_PSR-4_Composer/app',
+        ),
+        'App2\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/public/5-PHP_Class_Constants/app',
         ),
     );
 
