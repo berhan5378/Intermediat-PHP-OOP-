@@ -1,7 +1,20 @@
 <?php
 
 /** PHP Coding Standards, Autoloading(PSR-4) and Composer */
-//Autoloading is solve the 'require file'
+/*
+PHP Coding Standards is Ensures consistent code style and readability
+Key Standards:
+PSR-1: Basic coding standard (e.g., file encoding, class naming).
+PSR-12: Extended coding style guide (indentation, braces, etc.).
+
+Autoloading (PSR-4):- Automatically loads classes without manually including files
+
+Composer:- Dependency management for PHP projects.
+Uses:
+Automatically installs and updates libraries and packages.
+Manages autoloading configurations (including PSR-4).
+
+*/
 
 /*
  spl_autoload_register(
