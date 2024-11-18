@@ -6,7 +6,12 @@ require_once 'class/Transaction.php';
 require_once 'class/Customer.php';
 require_once 'class/PaymentProfile.php';
 
-/*Constructor Property Promotion Nullsafe Operator*/
+/**Constructor Property Promotion and Nullsafe Operator
+ *Constructor Property Promotion (PHP 8+):- Simplifies class property declaration and assignment in constructors.
+ *How It Works: Define and initialize properties directly in the constructor's parameter list.
+ *Nullsafe Operator (PHP 8+): Avoids null errors when accessing properties or methods of potentially null objects.
+ *Syntax: ?-> allows safe navigation without manually checking for null.
+*/
 
 $transaction = new Transaction(5,'Test');
 
