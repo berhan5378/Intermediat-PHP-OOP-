@@ -1,5 +1,10 @@
 <?php
 
+/** PHP Namespace 
+ * PHP Namespaces:- Avoid name conflicts between classes, functions, or constants in different parts of a project.
+*/
+//for e.g it's resolve the confilict b/n the Stripe class of Transaction() and  Paddle class of Transaction()
+
 require_once 'PaymentGateway/Stripe/Transaction.php';
 require_once 'PaymentGateway/Paddle/Transaction.php';
 require_once 'PaymentGateway/Paddle/CustomerProfile.php';
@@ -8,11 +13,6 @@ require_once 'Notification/Email.php';
 use PaymentGateway\Paddle\{Transaction,CustomerProfile};
 use PaymentGateway\Stripe\Transaction as StripeTransaction; //we use 'as' to resolve the confilict of the same 'Transaction'
 use PaymentGateway\Paddle;
-
-/** PHP Namespace 
- * PHP Namespaces:- Avoid name conflicts between classes, functions, or constants in different parts of a project.
-*/
-//for e.g it's resolve the confilict b/n the Stripe class of Transaction() and  Paddle class of Transaction()
 
 var_dump(new Transaction(),new PaymentGateway\Stripe\Transaction()); // if we don't use 'use' for Stripe
 //or
