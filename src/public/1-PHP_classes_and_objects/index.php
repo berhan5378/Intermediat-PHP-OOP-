@@ -1,11 +1,14 @@
 <?php
 
+/**  classes & objects 
+ * Classes :- A blueprint for creating objects. Defines properties (attributes) and methods (behaviors).
+ * Objects :- Instances of a class that contain actual values for properties and can use class methods.
+*/
+
 declare(strict_types = 1);
 
 require_once 'class/Transaction.php';
 
-
-/**  classes & objects */
 
 /* //we can use new Transaction() without create __construct(float $amount, string $description), b/c to handel error of the arguments pass on new Transaction();
 $transaction = new Transaction();
