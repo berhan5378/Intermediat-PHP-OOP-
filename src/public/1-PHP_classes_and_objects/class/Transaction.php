@@ -12,7 +12,11 @@ class Transaction
 
     private $amount3=50;
 
-    
+    public function __construct(float $amount, string $description) {
+        $this->amount = $amount;
+        $this->adescriptionge = $description;
+    }
+
     public function addTax(float $rate)
     {
         $this->amount += ($this->amount * $rate) /100;
