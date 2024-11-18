@@ -4,11 +4,10 @@ declare(strict_types = 1);
 
 class Transaction
 {
-    private float $amount; 
     public ?Customer $customer=null;
     private ?Customer $customer2=null;
-    
-    public function __construct( float $amount, private string $description)
+    /* Constructor Property Promotion:- Define and initialize properties directly in the constructor's parameter list*/
+    public function __construct( private float $amount, private string $description)
     {
        echo $this->amount = $amount;
        echo $this->description=$description;
