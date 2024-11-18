@@ -9,8 +9,10 @@ use PaymentGateway\Paddle\{Transaction,CustomerProfile};
 use PaymentGateway\Stripe\Transaction as StripeTransaction; //we use 'as' to resolve the confilict of the same 'Transaction'
 use PaymentGateway\Paddle;
 
-/** PHP Namespace */
-//namespace used to resolve the confilict b/n the Stripe class of Transaction() and  Paddle class of Transaction()
+/** PHP Namespace 
+ * PHP Namespaces:- Avoid name conflicts between classes, functions, or constants in different parts of a project.
+*/
+//for e.g it's resolve the confilict b/n the Stripe class of Transaction() and  Paddle class of Transaction()
 
 var_dump(new Transaction(),new PaymentGateway\Stripe\Transaction()); // if we don't use 'use' for Stripe
 //or
