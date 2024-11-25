@@ -28,6 +28,8 @@ class ComposerStaticInit7422faf8f33d1f1cdfca8767e0ffc0f4
         'A' => 
         array (
             'App\\' => 4,
+            'App4\\' => 5,
+            'App3\\' => 5,
             'App2\\' => 5,
         ),
     );
@@ -52,6 +54,14 @@ class ComposerStaticInit7422faf8f33d1f1cdfca8767e0ffc0f4
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/public/4-PHP_CodingStandards_Autoloading_PSR-4_Composer/app',
+        ),
+        'App4\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/public/7-Encapsulation_Abstraction/app',
+        ),
+        'App3\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/public/6-Static_Properties_Methods/app',
         ),
         'App2\\' => 
         array (

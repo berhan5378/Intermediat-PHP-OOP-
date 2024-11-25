@@ -11,5 +11,7 @@ return array(
     'Ramsey\\Collection\\' => array($vendorDir . '/ramsey/collection/src'),
     'Brick\\Math\\' => array($vendorDir . '/brick/math/src'),
     'App\\' => array($baseDir . '/public/4-PHP_CodingStandards_Autoloading_PSR-4_Composer/app'),
+    'App4\\' => array($baseDir . '/public/7-Encapsulation_Abstraction/app'),
+    'App3\\' => array($baseDir . '/public/6-Static_Properties_Methods/app'),
     'App2\\' => array($baseDir . '/public/5-PHP_Class_Constants/app'),
 );
