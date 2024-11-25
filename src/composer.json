@@ -5,7 +5,9 @@
     "autoload": {
         "psr-4": {
             "App\\": "public/4-PHP_CodingStandards_Autoloading_PSR-4_Composer/app/",
-            "App2\\": "public/5-PHP_Class_Constants/app/"  
+            "App2\\": "public/5-PHP_Class_Constants/app/",
+            "App3\\": "public/6-Static_Properties_Methods/app/",
+            "App4\\": "public/7-Encapsulation_Abstraction/app/"
         }
     }
 }
