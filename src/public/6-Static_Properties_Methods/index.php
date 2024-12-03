@@ -1,6 +1,11 @@
 <?php
+/**Static Properties and Methods
+ *Shared Across All Instances: Static properties are shared between all objects of the class. 
+ *Changing the value of a static property affects all instances.
+ *No Object Required: Static methods and properties can be used without creating an object of the class.
+ *Accessing Static Members Within the Class: Use the self:: keyword to access static members from within the class.
+ */
 
-//Static Properties and Methods
 use App3\DB;
 use App3\PaymentGateway\Paddle\Transaction; 
 
