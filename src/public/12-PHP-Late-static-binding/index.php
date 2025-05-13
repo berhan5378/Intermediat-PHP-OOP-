@@ -50,7 +50,7 @@ class ClassA
 class ClassB extends ClassA
 {
     protected string $name = 'B';
-    protected static string $name1= 'B'; 
+    protected static string $name1= 'B';
 }
 
 $classA= new ClassA();
