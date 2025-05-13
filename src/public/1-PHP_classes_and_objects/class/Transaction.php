@@ -14,7 +14,7 @@ class Transaction
 
     public function __construct(float $amount, string $description) {
         $this->amount = $amount;
-        $this->adescriptionge = $description;
+        $this->description = $description;
     }
 
     public function addTax(float $rate)
