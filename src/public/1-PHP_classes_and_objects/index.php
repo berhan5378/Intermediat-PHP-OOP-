@@ -2,7 +2,7 @@
 
 /**  classes & objects 
  * Classes :- A blueprint for creating objects. Defines properties (attributes) and methods (behaviors).
- * Objects :- Instances of a class that contain actual values for properties and can use class methods.
+ * Objects :- Instances of a class that contain actual values for properties and can use class methods. 
 */
 
 declare(strict_types = 1);
