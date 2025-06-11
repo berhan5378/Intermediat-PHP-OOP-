@@ -38,6 +38,7 @@ var_dump($transaction->amount); //float(97.2)
  
 var_dump($transaction->getAmount());//float(50)
 
+
 $transaction2 = (new Transaction(200,'transaction 2'))
         ->addTax2(8)
         ->applyDiscount2(15);
